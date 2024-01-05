@@ -107,3 +107,4 @@ Default Zephyr Peripheral Mapping:
 - [Discovery kit with STM32F407VG MCU - User manual](https://www.st.com/resource/en/user_manual/um1472-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf)
 - [ST STM32F4 Discovery - Zephyr Project Documentation](https://docs.zephyrproject.org/latest/boards/arm/stm32f4_disco/doc/index.html)
 - [West (Zephyr’s meta-tool)](https://docs.zephyrproject.org/latest/develop/west/index.html)
+- [Zephyr: Tutorial for Beginners](https://maksimdrachov.github.io/zephyr-rtos-tutorial/)
