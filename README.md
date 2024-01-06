@@ -8,9 +8,9 @@ The STM32F4DISCOVERY is an evaluation board for STM32F407VGT6 MCU which includes
 
 - STM32F407VGT6 microcontroller featuring 32-bit Arm® Cortex®-M4 with FPU core, 1-Mbyte Flash memory and 192-Kbyte RAM in an LQFP100 package
 - USB OTG FS
-- ST MEMS 3-axis accelerometer
-- ST-MEMS audio sensor omni-directional digital microphone
-- Audio DAC with integrated class D speaker driver
+- ST MEMS 3-axis accelerometer (LIS302DL)
+- ST-MEMS audio sensor omni-directional digital microphone (MP45DT02)
+- Audio DAC with integrated class D speaker driver (CS43L22)
 - User and reset push-buttons
 - Eight LEDs:
   - LD1 (red/green) for USB communication
@@ -34,7 +34,7 @@ The STM32F4DISCOVERY is an evaluation board for STM32F407VGT6 MCU which includes
 STM32F4DISCOVERY Discovery kit provides the following hardware components:
 
 - STM32F407VGT6 in LQFP100 package
-- ARM |reg| 32-bit Cortex |reg| -M4 CPU with FPU
+- ARM 32-bit Cortex-M4 CPU with FPU
 - 168 MHz max CPU frequency
 - VDD from 1.8 V to 3.6 V
 - 1 MB Flash
@@ -105,6 +105,7 @@ Default Zephyr Peripheral Mapping:
 
 - [Discovery kit with STM32F407VG MCU * New order code STM32F407G-DISC1 (replaces STM32F4DISCOVERY)](https://www.st.com/en/evaluation-tools/stm32f4discovery.html)
 - [Discovery kit with STM32F407VG MCU - User manual](https://www.st.com/resource/en/user_manual/um1472-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf)
+- [STM32F4DISCOVERY - F407VGT6 - B02 Schematic](https://www.st.com/content/ccc/resource/technical/layouts_and_diagrams/schematic_pack/group1/0f/91/8b/39/b3/78/4d/c4/MB997-F407VGT6-B02_Schematic/files/MB997-F407VGT6-B02_Schematic.pdf/jcr:content/translations/en.MB997-F407VGT6-B02_Schematic.pdf)
 - [ST STM32F4 Discovery - Zephyr Project Documentation](https://docs.zephyrproject.org/latest/boards/arm/stm32f4_disco/doc/index.html)
 - [West (Zephyr’s meta-tool)](https://docs.zephyrproject.org/latest/develop/west/index.html)
 - [Zephyr: Tutorial for Beginners](https://maksimdrachov.github.io/zephyr-rtos-tutorial/)
