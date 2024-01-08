@@ -1,4 +1,4 @@
-# Zephyr OS with STM32F4-Discovery Board
+# Zephyr OS on STM32F4-Discovery Board
 
 This repository documents my efforts to learn how to develop programs for an STM32 microcontroller using the Zephyr RTOS.
 
